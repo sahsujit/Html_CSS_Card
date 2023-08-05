@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.textbox{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 75%;
+}
+.textbox h2{
+    font: bold;
+}
+
+.amountbox{
+    width: 70%;
+    height: 10%;
+    background-color: rgba(88, 88, 204, 0.685);
+    display: flex;
+    padding-left: 10px ;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftbox{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.imgbox{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+}
+#paymentbutton{
+    width: 70%;
+    height: 9%;
+    background-color: rgb(29, 16, 59);
+    color: white;
+    box-shadow: 0px 2px 10px  black;
+}
+.canclebox a{
+    text-decoration: none;
+    font: bold;
+    color: rgb(36, 22, 22);
+    font-size: large;
+}
